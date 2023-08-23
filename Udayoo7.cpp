@@ -1,10 +1,12 @@
-#include <iostream>
+#include <stdio.h>
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Hello Uday!\n";
-
+    int a = 20;
+    int b = 30;
+    int c = a + b;
+    printf("Addition is:%d", c);
+    return 0;
 }
 
 
